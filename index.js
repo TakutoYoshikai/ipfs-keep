@@ -17,7 +17,7 @@ function access(url) {
     axios.get(
       url,
       {
-        timeout: 10000
+        timeout: 20000
       }
     ).then((response) => {
       console.log("✅ " + url);
