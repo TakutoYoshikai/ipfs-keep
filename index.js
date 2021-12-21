@@ -20,9 +20,10 @@ function access(url) {
         timeout: 10000
       }
     ).then((response) => {
-      console.log(response.data);
+      console.log("✅ " + url);
       resolve();
     }).catch(() => {
+      console.log("❌ " + url);
       resolve();
     });
   });
@@ -40,4 +41,8 @@ async function keep(cids) {
   }
 }
 
+keep([
+  "QmSFtLtBMgzXo3Jvi2Lsu5C4hekkuHPdpUVcgRBoEwkfjr",
+  "QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o",
+]);
 module.exports = keep;
