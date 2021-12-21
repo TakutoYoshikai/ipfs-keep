@@ -41,8 +41,4 @@ async function keep(cids) {
   }
 }
 
-keep([
-  "QmSFtLtBMgzXo3Jvi2Lsu5C4hekkuHPdpUVcgRBoEwkfjr",
-  "QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o",
-]);
 module.exports = keep;
