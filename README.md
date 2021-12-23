@@ -1,5 +1,5 @@
 # ipfs-keep
-This is a tool for keeping data on IPFS network.
+This is a library for keeping data on IPFS network.
 
 ### Requirements
 * Node.js
@@ -15,7 +15,7 @@ npm install --save TakutoYoshikai/ipfs-keep
 ```javascript
 const keep = require("ipfs-keep");
 
-keep([
+await keep([
   "QmSFtLtBMgzXo3Jvi2Lsu5C4hekkuHPdpUVcgRBoEwkfjr",
   "QmT78zSuBmuS4z925WZfrqQ1qHaJ56DQaTfyMUF7F8ff5o",
 ]);
