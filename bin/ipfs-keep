@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const keep = require("../index");
+
+if (process.argv.length !== 3) {
+  process.exit();
+}
+keep(process.argv[2]);

@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.24.0"
+  },
+  "bin": {
+    "ipfs-keep": "./bin/ipfs-keep"
   }
 }
